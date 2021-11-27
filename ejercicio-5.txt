@@ -1,0 +1,14 @@
+Crear el archivo index.html y main.css y vincularlos mediante una etiqueta <link>. 
+Crear en el HTML la estructura de una home con diseño a elección del alumno, que contenga como mínimo un encabezado, footer, elemento main, barra de navegación, 2 secciones, 2 artículos, encabezados, párrafos y vínculos (pueden haber más elementos y utilizar más etiquetas como img, tablas, formularios, etc). 
+Dentro de "main.css" definir los estilos necesarios para que la página se vea "linda". Deben utilizar nomenclatura BEM. Pueden utilizar SASS y Bootstrap. 
+El diseño tiene que ser responsive. Sugerencia: utilizar diseño mobile first (investigar). Luego crear un archivo de nombre "light-theme.css" y vincularlo al archivo index.hml creado, después de la etiqueta <link> ya existente, de tal manera que los estilos definidos en "light-theme.css" se sumen y/o pisen a los de "main.css". 
+Modificar colores (de fondos, tipografías, bordes, etc), tipografías y fondos para que el diseño resultante de la página aluda a un tema o modo "claro". 
+Crear un nuevo archivo vacío de nombre "dark-theme.css". 
+Modificar en el archivo index.html el atributo href de la segunda etiqueta <link> existente, de tal modo que en lugar de que el HTML quede vinculado con "light-theme.css", quede vinculado con "dark-theme.css". 
+La etiqueta <link> hacia "main.css" debe mantenerse intacta en todo momento, antes que la otra etiqueta <link> adicional y al archivo "main.css" no se le deben hacer más cambios. 
+Editar el archivo "dark-theme.css", de tal manera que los estilos allí definidos se sumen y/o pisen a los de "main.css". Modificar colores (de fondos, tipografías, bordes, etc), tipografías y fondos para que el diseño resultante de la página aluda a un tema o modo oscuro. 
+En el archivo HTML agregar 2 botones con los textos "Tema claro" y "Tema oscuro". 
+El botón "Tema claro" deberá reemplazar el href de la segunda etiqueta <link> que, después de los últimos cambios, estaba apuntando al archivo "dark-theme.css", de tal manera que al presionarse el botón con el texto "Tema claro" el archivo "light-theme.css" sea utilizado. 
+De igual manera, el botón "Tema oscuro" debe volver a modificar la segunda etiqueta <link> para que se utilice el tema oscuro. Adicionalmente, debe mostrarse al usuario cuál es el tema utilizado en todo momento. Resumen: 
+En todo momento la página utilizará 2 archivos CSS, pudiendo ser la combinación de "main + light-theme" o de "main + dark-theme". 
+Los botones solo cambian el uso del CSS del tema claro por el oscuro y viceversa, manteniéndose el uso de main en todo momento. Opcional: reemplazar los 2 botones por uno solo del estilo "toggle" que prenda o apague el modo oscuro.

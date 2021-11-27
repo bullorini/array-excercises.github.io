@@ -1,0 +1,8 @@
+Mediante una ventana interactiva del tipo prompt() solicitarle al usuario "Cantidad de números a solicitar". Tomar el valor informado y mostrarlo dentro de un input de tipo text en la página, cuyo valor deberá quedar con el texto concatenado "Números solicitados: X" (en donde X es la cantidad de números solicitados). 
+Crear a continuación una variable de nombre numerosCargados con un array vacío y a continuación definir una estructura repetitiva que itere la cantidad de veces que el usuario haya indicado en el prompt anterior. 
+En cada iteración, se le solicitará al usuario que ingrese un número. 
+Adicionar al array numerosCargados, inicialmente vacío, cada valor como un nuevo índice al final.
+Durante cada iteración, verificar si el usuario presionó el botón "cancelar" del prompt, en lugar de "aceptar". De ser así, el bucle debe terminar abruptamente. 
+Una vez finalizado, indicar en otro input de tipo text en la página la cantidad de números que fueron efectivamente cargados, cuyo valor deberá quedar con el texto concatenado "Números cargados: X" (en donde X es la cantidad de números efectivamente cargados). 
+Una vez cargados todos los números en el array, crear dos nuevos arrays vacíos de nombre "numerosPares" y "numerosImpares".
+ Recorrer el array de numerosCargados, verificando en cada iteración si el número es par o impar. En caso de ser par, agregarlo a un nuevo índice del array numerosPares. En caso contrario, incorporarlo al array numerosImpares. Para finalizar, mostrar en la consola el contenido de los 3 arrays. Opcional: mostrar el contenido de los arrays dentro del HTML en 3 <ul> distintos.

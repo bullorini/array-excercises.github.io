@@ -1,0 +1,21 @@
+A) Crear cuatro imágenes, las cuales deben representar, ya sea mediante texto, íconos, o distintos tipos de ilustraciones en su interior, los siguientes mensajes:
+"Agregar recordatorio"
+"Agregar recordatorio prioritario"
+"Quitar primer recordatorio de la lista"
+"Quitar último recordatorio de la lista"
+B) Crear un archivo "recordatorios.html" y vincularlo con un archivo "recordatorios.js" dentro del directorio "js".
+C) Incorporar en el HTML las 4 imágenes creadas anteriormente, mediante elementos <img>.
+D) Crear en el HTML un <section> que contenga un encabezado con el texto "Recordatorios". Debajo del encabezado definir una lista desordenada con 5 ítems, cada uno con un recordatorio diferente (ej: "Lavar el auto", "Comprar pilas", etc).
+E) Estilizar con CSS todos los elementos existentes en el HTML. Quitar las viñetas de la lista creada y alternar sus colores de fondo en pares e impares.
+F) En el archivo JS crear un array de nombre "recordatorios" y cargar en él los 5 textos utilizados para la lista definida en el HTML (solo los textos, en formato string). Luego de esto, eliminar del HTML todos los elementos <li> de la lista existente, quedando el <ul> vacío.
+G) Recorrer, de forma automatizada, el array creado en el punto anterior y mostrarlo en la consola con console.log(). Si esto funciona, eliminar el console.log() y, en su lugar, utilizar el contenido de cada índice del array para recrear la lista eliminada en el punto anterior.
+ Es decir, no agregar los elementos <li> en el archivo físico HTML (el mismo debe quedar con el <ul> vacío), sino que la lista será recreada con JavaScript al abrir la página en el navegador. De esta manera, si se cierra el navegador y se modifica el contenido del array "recordatorios" en el archivo "recordatorios.js", sin editar el archivo HTML, y se vuelve a abrir la página, la lista debe mostrarse actualizada
+H) Programar la imagen que representa "Agregar recordatorio" para que al ser presionada utilice el contenido devuelto por un prompt() para adicionar el texto indicado por el usuario al final del array y actualizar la lista mostrada en la página. Es decir, que cada vez que el usuario presione la imagen y cargue texto, debe actualizarse el array "recordatorios" y volver a ser recorrido para redibujar la lista <ul> nuevamente.
+I) Programar la imagen que representa "Agregar recordatorio prioritario" para que al ser presionada realice la misma tarea que el punto anterior, con la diferencia de que debe agregar un elemento al inicio de la lista. Nuevamente, la lista debe mostrarse actualizada para que el visitante vea el nuevo elemento agregado al principio.
+J) Programar las imágenes que representan "Quitar primer recordatorio de la lista" y "Quitar último recordatorio de la lista" para que, previa confirmación con un confirm(), eliminen del array "recordatorios" el primer o último elemento, según corresponda y se vuelva a actualizar la lista a partir del array.
+Definiciones y aclaraciones adicionales:
+- Deben utilizar metodología BEM para la definición de clases y estilado de elementos.
+- Pueden utilizar Bootstrap, si quieren.
+- Pueden utilizar SASS, si quieren.
+- Cada vez que se hace click sobre una de las imágenes, lo que se actualiza es el array "recordatorios" con un nuevo elemento (al principio o final) o la eliminación del primer o último elemento, según corresponda. Luego de esto, se volverá a recorrer el array para actualizar el contenido del elemento <ul> del HTML. Esto no es del todo óptimo, pero se realiza con fines pedagógicos.
+Desafío opcional: Eliminar el array "recordatorios" del archivo JS y volver a agregar directamente en el código del archivo físico HTML los elementos <li> eliminado en el punto F. Reprogramar el código de las imágenes para manipular directamente el contenido del elemento <ul>, agregando o quitando "nodos HTML" del inicio o final del elemento <ul> directamente. No utilizar y eliminar cualquier tipo de estructura repetitiva existente.

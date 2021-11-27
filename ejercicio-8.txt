@@ -1,0 +1,5 @@
+Utilizando como base el ejercicio del formulario (el de "Vení al Gym!"):
+A) Asegurarse de que la etiqueta <link> apunte al archivo CSS con los estilos base y no a los personalizados que se habían realizado como consigna en su momento.
+B) Agregar debajo del encabezado principal, antes del formulario, un checkbox y asociarlo con un label con texto "Estilo personalizado".
+C) Programar el checkbox adicionado para que al hacerle click, si queda tildado, se pase a hacer uso del CSS personalizado y deje de utilizar el CSS base. Al volver a tildarlo, cuando quede destildado, debe desactivarse el uso del CSS personalizado y volver a aplicarse el estilo base.
+Desafío opcional: investigar cómo persistir el estado del checkbox, es decir, para que luego de recargar la página o cerrar el navegador y volver a abrirlo se mantenga aplicado el último CSS utilizado.

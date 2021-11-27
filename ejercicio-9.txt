@@ -1,0 +1,9 @@
+Utilizando como base el ejercicio de modelo de caja (el de los juegos mario Kart 8 Deluxe y Mortal Kombat 11):
+A) Editar el texto del vínculo o botón "Comprar!" del primer juego por el texto "Conocer más...". Asegurarse de que dicho elemento sea un elemento <a>. Si se había utilizado un elemento <button> u otro elemento HTML reemplazarlo por un <a>.
+B) Asegurarse de que el <a> "Conocer más..." del primer juego apunte al archivo "mario-kart-8-deluxe.html".
+C) Crear dicho archivo y adicionar en él fotos e información reales referentes al juego, que no estén presentes en le pantalla anterior y un vínculo que permita volver al home.
+D) En el archivo principal (el que muestra ambos juegos), adicionar a la derecha del vínculo de "Conocer más..." del primer juego un elemento <button> con el texto "Agregar al carrito". Este elemento <button> debe visualizarse idéntico al elemento <a> definido en los puntos anteriores, pero de color rojo.
+E) Agregar justo antes del vínculo "Conocer más..." y botón "Agregar al carrito" del primer juego (es decir, justo después de los párrafos descriptivos) un div con el texto "Aún no comprado". Aplicarle libremente estilos de CSS para que no parezca parte de la descripción del juego. Tip: utilizar un componente alert de Bootstrap (no confundir con la ventana interactiva alert() de JS).
+F) Programar el botón "Agregar al carrito" de este juego para que al hacerle click se modifique el contenido del div creado en el punto anterior por "Se compró una vez.".
+G) Modificar el código programado para que cuando el botón sea clickeado nuevamente el texto informativo del div definido en los puntos anteriores cambie a "Se compró 2 veces.". Al ser clickeado nuevamente debe reemplazar el 2 por un 3, y así sucesivamente.
+H) Replicar la consigna indicada en los puntos anteriores (referentes a Mario Kart 8 Deluxe) para el juego de Mortal Kombat 11.
