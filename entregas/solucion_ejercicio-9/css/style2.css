@@ -37,7 +37,13 @@ h3 {
   font-size: 1.7em;
   font-weight: 500;
   letter-spacing: -0.03em;
-  padding: 0px 15px;
+  padding: 0px 1px;
+}
+h4 {
+  color: #87dfe8;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: -0.03em;
 }
 p {
   color: #97bfaa;
@@ -183,6 +189,10 @@ a:hover span:nth-child(4) {
   border-color: #97bfaa;
   border-radius: 20px 0px;
 }
+.card-body__list{
+  width: 50%;
+  padding: 0 1.3em;
+}
 .card-btn__container {
   display: flex;
 }
@@ -222,6 +232,7 @@ nav {
 }
 li {
   list-style: none;
+  color: #87dfe8;
 }
 ul {
   padding: 0;
@@ -235,6 +246,11 @@ li a {
 li a:hover {
   color: #b7dac7;
 }
+.card-body__list ul, .card-body__list li{
+  list-style: inherit;
+  padding: inherit;
+}
+
 .icon {
   width: 60px;
   height: 100%;
